@@ -12,6 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptExecutor;
@@ -92,5 +93,9 @@ public class BaseUtils {
 	public static void scrollIntoViewByJS (WebElement element, WebDriver driver) {
 		JavascriptExecutor js = ((JavascriptExecutor) driver);
 		js.executeScript("arguments[0].scrollIntoView(true);", element);	
+	}
+	public static void selectDropDownValue (By locator, String value) {
+		Select dropDown = new Select(driver.findElement(locator));
+		dropDown.selectByVisibleText(value);
 	}
 }
