@@ -1,37 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="93264" started-at="2019-05-15T23:28:55Z" finished-at="2019-05-15T23:30:29Z">
+  <suite name="Default suite" duration-ms="7647" started-at="2019-05-17T20:42:58Z" finished-at="2019-05-17T20:43:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="93264" started-at="2019-05-15T23:28:55Z" finished-at="2019-05-15T23:30:29Z">
-      <class name="MyTestDemo">
-        <test-method status="PASS" signature="setup()[pri:0, instance:MyTestDemo@7113b13f]" name="setup" is-config="true" duration-ms="3235" started-at="2019-05-15T23:28:55Z" finished-at="2019-05-15T23:28:59Z">
+    <test name="Default test" duration-ms="7647" started-at="2019-05-17T20:42:58Z" finished-at="2019-05-17T20:43:05Z">
+      <class name="BasicAuth">
+        <test-method status="PASS" signature="testPopUpAuth()[pri:0, instance:BasicAuth@5f3a4b84]" name="testPopUpAuth" duration-ms="7617" started-at="2019-05-17T20:42:58Z" finished-at="2019-05-17T20:43:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="navigationTest()[pri:0, instance:MyTestDemo@7113b13f]" name="navigationTest" duration-ms="9076" started-at="2019-05-15T23:28:59Z" finished-at="2019-05-15T23:29:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigationTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:MyTestDemo@7113b13f]" name="tearDown" is-config="true" duration-ms="616" started-at="2019-05-15T23:29:08Z" finished-at="2019-05-15T23:29:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:MyTestDemo@7113b13f]" name="setup" is-config="true" duration-ms="2692" started-at="2019-05-15T23:29:08Z" finished-at="2019-05-15T23:29:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="navigation_FeatureTest()[pri:0, instance:MyTestDemo@7113b13f]" name="navigation_FeatureTest" duration-ms="76640" started-at="2019-05-15T23:29:11Z" finished-at="2019-05-15T23:30:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigation_FeatureTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:MyTestDemo@7113b13f]" name="tearDown" is-config="true" duration-ms="966" started-at="2019-05-15T23:30:28Z" finished-at="2019-05-15T23:30:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- MyTestDemo -->
+        </test-method> <!-- testPopUpAuth -->
+      </class> <!-- BasicAuth -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
